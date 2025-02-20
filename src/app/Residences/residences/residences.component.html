@@ -21,6 +21,10 @@
           <div>
             <span>Adresse : {{ r.address }}</span>
           </div>
+          <div>
+            <button class="btn btn-primary mt-2" [routerLink]="['/details',r.id]"  >Voir details</button>
+
+          </div>
 
           <!-- Statut de la résidence avec ngSwitch -->
           <div>
